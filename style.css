@@ -19,7 +19,7 @@ p{
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: lenter;
+  align-items: center;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background.jpg");
   background-size: cover;
 }
