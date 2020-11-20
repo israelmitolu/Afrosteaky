@@ -136,21 +136,23 @@
 >C</span>ontact Us</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-    <div class="contact-form">
-      <h2>Send Message</h2>
-      <div class="inputBox">
-        <input type="text" placeholder="Name" id="name" />
+    <form action="POST" data-netlify="true">
+      <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <div class="inputBox">
+          <input type="text" placeholder="Name" id="name" name="name" />
+        </div>
+        <div class="inputBox">
+          <input type="email" placeholder="Email" id="email" name="email" />
+        </div>
+        <div class="inputBox">
+          <textarea placeholder="Message" name="message"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send" id="" name="submit" />
+        </div>
       </div>
-      <div class="inputBox">
-        <input type="email" placeholder="Email" id="email" />
-      </div>
-      <div class="inputBox">
-        <textarea placeholder="Message"></textarea>
-      </div>
-      <div class="inputBox">
-        <input type="submit" value="Send" id="" />
-      </div>
-    </div>
+    </form>
   </section>
   
   <div class="copyright">
