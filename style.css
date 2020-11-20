@@ -115,11 +115,11 @@ header .nav-bar li a {
   font-weight: 400;
 }
 
-header .sticky .nav-bar li a {
+header.sticky .nav-bar li a {
   color: #111;
 }
 
-header .sticky .nav-bar li a:hover {
+header.sticky .nav-bar li a:hover {
   color: #ff0157;
 }
 
@@ -310,28 +310,4 @@ section {
   text-decoration: none;
   font-weight: 400;
   color: #ff0157;
-}
-@media screen and (max-width: 991px){
- header, header.sticky{
-   padding: 0 5px 15px;
-  }
-  header .nav-bar{
-    display: none;
-  }
-  .menuToggle{
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background: url("images/icons8-menu.svg");
-  background-size: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-  .menuToggle.active{
-  background: url("images/close.svg");
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: center;
-  }
 }
