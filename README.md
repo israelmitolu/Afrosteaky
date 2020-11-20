@@ -1,4 +1,8 @@
 # Afrosteaky
 
-This is my first real repository.
-I'm trying to host projects on github pages so I can preview better.
+My first real project as a web developer. Thanks to the owner, my friend Ojo E. for the privilege. 
+
+
+/* Images gotten from pexels.com
+   Design inspiration from dribble.com and pinterest.com
+*/

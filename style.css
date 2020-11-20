@@ -1,47 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-body{
+
+body {
   min-height: 1000px;
 }
-p{
+
+p {
   font-weight: 300;
   color: #111;
 }
-.banner{
+
+.banner {
   position: relative;
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
   background-size: cover;
 }
-banner .content{
+
+banner .content {
   max-width: 900px;
   text-align: center;
 }
-.banner .content{
+
+.banner .content {
   max-width: 900px;
   text-align: center;
 }
-.banner .content h2{
+
+.banner .content h2 {
   font-size: 5em;
   color: #fff;
 }
-.banner .content p{
+
+.banner .content p {
   font-size: 1em;
   color: #fff;
 }
-.btn{
+
+.btn {
   font-size: 1em;
-  color:#fff;
+  color: #fff;
   background: #ff0157;
   display: inline-block;
   padding: 10px 30px;
@@ -51,10 +60,12 @@ banner .content{
   letter-spacing: 2px;
   transition: 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
   letter-spacing: 6px;
 }
-header{
+
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -66,71 +77,87 @@ header{
   align-items: center;
   transition: 0.5s;
 }
-header.sticky{
+
+header.sticky {
   background: #fff;
   padding: 10px 100px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
-header .logo{
+
+header .logo {
   color: #fff;
   font-weight: 700;
   font-size: 2em;
   text-decoration: none;
 }
-header .logo span{
+
+header .logo span {
   color: #ff0157;
 }
-header.sticky .logo{
+
+header.sticky .logo {
   color: #111;
 }
-header .nav-bar{
+
+header .nav-bar {
   position: relative;
   display: flex;
 }
-header .nav-bar li{
+
+header .nav-bar li {
   list-style: none;
   margin-left: 30px;
 }
-header .nav-bar li a{
+
+header .nav-bar li a {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
 }
-header.sticky .nav-bar li a{
+
+header.sticky .nav-bar li a {
   color: #111;
 }
-header.sticky .nav-bar li a:hover{
+
+header.sticky .nav-bar li a:hover {
   color: #ff0157;
 }
-section{
+
+section {
   padding: 100px;
 }
-.row{
+
+.row {
   display: flex;
   justify-content: space-between;
   position: relative;
   width: 100%;
 }
-.row .col50{
+
+.row .col50 {
   position: relative;
   width: 48%;
 }
-.titleText{
+
+.titleText {
   color: #111;
   font-size: 2em;
   font-weight: 400;
 }
-.titleText span{
+
+.titleText span {
   color: #ff0157;
   font-weight: 700;
   font-size: 1.5em;
 }
-.imgBox{
+
+.imgBox {
   width: 100%;
   position: relative;
   height: 100%;
 }
-.imgBox img{
+
+.imgBox img {
   position: absolute;
   top: 0;
   left: 0;
@@ -138,32 +165,37 @@ section{
   height: 100%;
   object-fit: cover;
 }
-.title{
+
+.title {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.content{
+
+.content {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
   flex-wrap: wrap;
   margin-top: 40px;
 }
-.menu .content .box{
+
+.menu .content .box {
   width: 340px;
   margin: 20px;
   border: 15px solid #fff;
-  box-sizing: 0 5px 35px rgba(0,0,0,0.05);
+  box-sizing: 0 5px 35px rgba(0, 0, 0, 0.05);
 }
-.menu .content .box .imgBox{
+
+.menu .content .box .imgBox {
   position: relative;
   width: 100%;
   height: 300px;
 }
-.menu .content .box .imgBox img{
+
+.menu .content .box .imgBox img {
   position: absolute;
   left: 0;
   top: 0;
@@ -171,63 +203,74 @@ section{
   height: 100%;
   object-fit: cover;
 }
-.menu .content .box .text{
+
+.menu .content .box .text {
   padding: 15px 0 5px;
 }
-.menu .content .box .text h3{
-  font-weight: 400;
-  color: #111;
-}
-.experts .content .box{
-  width: 250px ;
-  margin: 15px; 
-}
-.experts .content .box .imgBox{
-  position: relative;
-  height: 300px;
-  width: 100%;
-}
-.experts .content .box .imgBox img{
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.experts .content .box .text{
-  padding: 15px 0 5px;
-}
-.experts .content .box .text h3{
+
+.menu .content .box .text h3 {
   font-weight: 400;
   color: #111;
 }
 
-.contact{
+.experts .content .box {
+  width: 250px;
+  margin: 15px;
+}
+
+.experts .content .box .imgBox {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+.experts .content .box .imgBox img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.experts .content .box .text {
+  padding: 15px 0 5px;
+}
+
+.experts .content .box .text h3 {
+  font-weight: 400;
+  color: #111;
+}
+
+.contact {
   background: url("images/white.jpg");
   background-size: cover;
-  background-position: left;
+  background-position: center;
 }
-.contact-form{
+
+.contact-form {
   padding: 75px 50px;
   background: #fff;
-  box-shadow: 0 50px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 50px 15px rgba(0, 0, 0, 0.1);
   max-width: 500px;
   margin-top: 50px;
 }
-.contact-form h3{
+
+.contact-form h3 {
   color: #fff;
   font-size: 1.2em;
-  font-weight: 500; 
+  font-weight: 500;
   margin-bottom: 20px;
 }
-.contact-form .inputBox{
+
+.contact-form .inputBox {
   position: relative;
   width: 100%;
   margin-bottom: 20px;
 }
-.contact-form .inputBox input, 
-.contact-form .inputBox textarea{
+
+.contact-form .inputBox input,
+.contact-form .inputBox textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #555;
@@ -237,9 +280,10 @@ section{
   font-weight: 300;
   resize: none;
 }
-.contact-form .inputBox input[type= "submit"]{
+
+.contact-form .inputBox input[type="submit"] {
   color: #fff;
-  font-size: 1em; 
+  font-size: 1em;
   background: #ff0157;
   display: inline-block;
   text-decoration: none;
@@ -251,36 +295,19 @@ section{
   border: none;
   cursor: pointer;
 }
-.copyright{
-  padding: 8px 40px; 
-  border-top: 1px solid rgba(0, 0, 0,0.1);
+
+.copyright {
+  padding: 8px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
 }
-.copyright p{
+
+.copyright p {
   color: #333;
 }
-.copyright a{
+
+.copyright a {
   text-decoration: none;
   font-weight: 400;
   color: #ff0157;
 }
-@media screen and (max-width: 991px){
- header, header .sticky{
-   padding: 0 5px 15px;
-  }
-  header .nav-bar{
-    display: none;
-  }
-  .menuToggle{
-  position: relative;
-  width: 40px;
-  height: 40px;
-  background: url(images/icons8-menu.svg);
-  background-size: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-
-}
-
