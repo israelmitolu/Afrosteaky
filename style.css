@@ -145,7 +145,7 @@ section{
   align-items: center;
   flex-direction: column;
 }
-.menu .content{
+.content{
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
@@ -178,13 +178,6 @@ section{
   font-weight: 400;
   color: #111;
 }
-.experts .content{
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  margin-top: 40px;
-}
 .experts .content .box{
   width: 250px ;
   margin: 15px; 
@@ -202,15 +195,72 @@ section{
   height: 100%;
   object-fit: cover;
 }
+.experts .content .box .text{
+  padding: 15px 0 5px;
+}
+.experts .content .box .text h3{
+  font-weight: 400;
+  color: #111;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.contact{
+  background: url("images/white.jpg");
+  background-size: cover;
+  background-position: left;
+}
+.contact-form{
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 50px 15px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin-top: 50px;
+}
+.contact-form h3{
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500; 
+  margin-bottom: 20px;
+}
+.contact-form .inputBox{
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact-form .inputBox input, 
+.contact-form .inputBox textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  color: #111;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  resize: none;
+}
+.contact-form .inputBox input[type= "submit"]{
+  color: #fff;
+  font-size: 1em; 
+  background: #ff0157;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  max-width: 100px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.copyright{
+  padding: 8px 40px; 
+  border-top: 1px solid rgba(0, 0, 0,0.1);
+  text-align: center;
+}
+.copyright p{
+  color: #333;
+}
+.copyright a{
+  text-decoration: none;
+  font-weight: 400;
+  color: #ff0157;
+}
