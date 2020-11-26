@@ -312,7 +312,7 @@ section {
   color: #ff0157;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px){
   header, header.sticky{
     padding: 10px 20px;
   }
