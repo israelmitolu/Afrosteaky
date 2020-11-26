@@ -354,9 +354,9 @@ section {
     background-repeat: no-repeat;
     background-position: center;
   }
-   /* header.sticky .menuToggle{
+    header.sticky .menuToggle{
     filter: invert(1); 
-  } */
+  } 
   section{
     padding: 20px;
   }
@@ -390,8 +390,9 @@ section {
   .titleText{
     font-size: 1.8em;
     line-height: 1.5em; 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-weight: 300; 
+    text-align: center;
   }
   .contact-form{
     padding: 35px 40px ;
