@@ -312,7 +312,7 @@ section {
   color: #ff0157;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px){
   header, header.sticky{
     padding: 10px 20px;
   }
@@ -354,7 +354,6 @@ section {
     background-repeat: no-repeat;
     background-position: center;
   }
-  } 
   section{
     padding: 20px;
   }
@@ -393,7 +392,7 @@ section {
     text-align: center;
   }
   .contact-form{
-    padding: 35px 40px ;
+    padding: 35px 40px;
     max-width: 500px;
     margin-top: 20px;
     margin-bottom: 30px;
