@@ -312,7 +312,7 @@ section {
   color: #ff0157;
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
   header, header.sticky{
     padding: 10px 20px;
   }
@@ -354,8 +354,6 @@ section {
     background-repeat: no-repeat;
     background-position: center;
   }
-    header.sticky .menuToggle{
-    filter: invert(1); 
   } 
   section{
     padding: 20px;
