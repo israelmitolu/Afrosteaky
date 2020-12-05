@@ -1,6 +1,7 @@
 # Afrosteaky
 
-My first real project as a web developer. Thanks to the owner, my friend Ojo E. for the privilege. 
+A very exciting project. I got to learn alot, even explored neuromorphism!
+Thanks to the owner of Afrosteak, my friend Ojo E. for the privilege. 
 
 
 /* 
