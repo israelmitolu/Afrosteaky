@@ -185,7 +185,7 @@ section {
 }
 #menu{
   position: relative;
- background: #ebf5fc;
+ background: #eee;
 }
 .menu .content{
   display: flex; 
@@ -222,6 +222,7 @@ section {
   margin-bottom: 20px;
   text-align: center;
   align-items: center;
+  height: auto;
 }
 .menu .content .card .text h3{
   font-weight: 300;
@@ -234,6 +235,7 @@ section {
 .menu .content .card .order{
   display: flex;
   justify-content: center;
+  height: auto;
 }
 .menu .content .card .order a{
   text-decoration: none;
@@ -247,7 +249,7 @@ section {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 8px 32px;
+  padding: 5px 32px;
   border-radius: 50px;
   box-shadow: inset -2px -2px 8px white, inset -2px -2px 12px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(255,255,255,0.1), inset 2px 2px 8px rgba(0,0,0,0.15);
   transition: 0.4s;
