@@ -41,7 +41,7 @@ banner .content {
 }
 
 .banner .content h2 {
-  font-size: 5em;
+  font-size: 4em;
   color: #fff;
 }
 
@@ -199,7 +199,7 @@ section {
   height: 200px;
   width: 300px;
   padding:30px;
-  box-shadow: inset -2px -2px 8px white, inset -4px -4px 12px rgba(255, 255, 255, 0.5), inset 6px 4px 8px rgba(255,255,255,0.1), inset 6px 6px 5px rgba(0,0,0,0.15); 
+  box-shadow: -6x -6px 8px white, inset -6x -6px 12px rgba(255, 255, 255, 0.5), inset 6px 4px 8px rgba(255,255,255,0.1), inset 6px 6px 5px rgba(0,0,0,0.15); 
   border-radius: 12px;
   margin-bottom: 50px;
   transition: 0.5s;
@@ -411,6 +411,9 @@ section {
   header .nav-bar{
     display: none;
   }
+  p{
+    font-size: 1em;
+    }
   header .nav-bar.active{
     width: 100%;
     height: calc(100% - 60px);
