@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml"> 
+  <title>Afrosteak | Your hub for quality BBQ</title>
+</head>
+
+<body>
+  <header>
+    <a href="#banner" class="logo">Afrosteak</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="nav-bar">
+      <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+      <li><a href="#experts" onclick="toggleMenu();">Experts</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </header>
+  <section class="banner" id="banner">
+    <div class="content">
+      <h2>Afrosteak<span>.</span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nunc et lacus tincidunt suscipit ut ac risus. Nunc fermentum nulla eu tortor tempor, quis venenatis lacus maximus. </p>
+      <a href="#menu" class="btn">Our Menu</a>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titleText"><span>A</span>bout Us</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>
+        </p>
+      </div>
+      <div class="col50">
+        <div class="imgBox">
+          <img src="images/pexels-matheus-gomes-2491272 (1).jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- MENU SECTION -->
+  <section class="menu" id="menu">
+    <div class="title">
+      <h2 class="titleText">Our <span>M</span>enu</h2>
+      <p>Specials for this season!.</p>
+    </div>
+    <div class="content">
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/cremed chicken.jpg">
+        </div>
+        <div class="text">
+          <h3>Chicken Breasts</h3>
+        </div>
+        <div class="order">
+          <p>#800</p>
+          <a href="https://wa.link/3u45mm" class="buy-now">Order</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/milkshake.jpg">
+        </div>
+        <div class="text">
+          <h3>Fruit Milkshakes</h3>
+        </div>
+        <div class="order">
+          <p>#500</p>
+          <a href="https://wa.link/7g6w85" class="buy-now">Order</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/chicken breasts.jpg">
+        </div>
+        <div class="text">
+          <h3>Chicken Barbeque</h3>
+        </div>
+        <div class="order">
+          <p>#3000</p>
+          <a href="https://wa.link/3u45mm" class="buy-now">Order</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/pexels-skitterphoto-1105325.jpg">
+        </div>
+        <div class="text">
+          <h3>Pork Barbecue</h3>
+        </div>
+         <div class="order">
+          <p>#990</p>
+          <a href="https://wa.link/kymwl0" class="buy-now">Order</a>
+        </div>
+      </div>
+     </div>
+    <!-- 
+     <div class="title">
+       <a href="#" class="btn">View All</a>
+    </div> -->
+  </section>
+  <!-- EXPERTS SECTION -->
+  <section class="experts" id="experts">
+    <div class="title">
+      <h2 class="titleText">The <span>BBQ</span> Experts</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="content">
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/cool looking chef.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h3>Enoch Ojo</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/p-bakes.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h3>P Bakes</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBox">
+          <img src="images/female chef.jpg" alt="" />
+        </div>
+        <div class="text">
+          <h3>Dara Ojo</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="title">
+      <h2 class="titleText"><span>C</span>ontact Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <form action="POST" data-netlify="true">
+      <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <div class="inputBox">
+          <input type="text" placeholder="Name" id="name" name="name" />
+        </div>
+        <div class="inputBox">
+          <input type="email" placeholder="Email" id="email" name="email" />
+        </div>
+        <div class="inputBox">
+          <textarea placeholder="Message" name="message" rows="5"></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send" id="" name="submit" />
+        </div>
+      </div>
+    </form>
+  </section>
+  <!-- Floating social icons -->
+  <div class="sticky-container">
+    <a href="https://wa.me/+2349071471728" class="order-btn" target="_blank">
+      <img src="images/download.svg" alt="chat us on WhatsApp"> 
+    </a>
+  </div>
+  
+  <div class="copyright">
+    <p>&copy; <a href="#">Afrosteak</a> 2020 | All Rights Reserved.</p>
+  </div>
+  <!-- Scripts -->
+  <script>
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('header');
+      header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+      const menuToggle = document.querySelector('.menuToggle');
+      const navBar = document.querySelector('.nav-bar');
+      menuToggle.classList.toggle('active');
+      navBar.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
